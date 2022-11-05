@@ -1,0 +1,130 @@
+section{
+    margin-top: 100px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    /* padding: 30px; */
+    border: 3px solid #000;
+    border-radius: 8px;
+}
+.item-img{
+    width: 300px;
+    height: 400px;
+    border: 5px solid #000;
+}
+.site-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.site-item::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("../icons/book-icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.for-img{
+    margin: 20px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.author::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("../icons/author.svg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+}
+.item-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.item-year{
+    display: flex;
+    align-items: center;
+}
+.item-year::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 10px;
+    background-image: url("../icons/year.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+}
+.lang::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../icons/language.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+}
+.pages::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 29px;
+    background-image: url("../icons/pages.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-form{
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    width: 200px;
+    margin-right: 20px;
+}
+.site-select{
+    width: 200px;
+    margin-right: 20px;
+    color: #000;
+}
+.site-select option{
+    color: #000;
+    /* background-color: #000; */
+}
